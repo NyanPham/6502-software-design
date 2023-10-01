@@ -6,7 +6,7 @@
     ldy #06             ; byte count = 6
 NxtByt:
     lda $20,x           ; load next byte
-    sta $0320,xor       ; store next byte 
+    sta $0320,x         ; store next byte 
     inx 
-    dey 
+    dey     
     bne NxtByt
