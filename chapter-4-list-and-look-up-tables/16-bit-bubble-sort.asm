@@ -16,7 +16,7 @@ NextEl:
     sec 
     dey
     dey
-    sbc ($30),y             ; subtract lsby of the preceding element
+    sbc ($30),y             ; subtract LSBY of the preceding element
     pla                     ; pull msby from stack
     iny
     sbc ($30),y             ; and subtract MSBY of preceding element
@@ -48,7 +48,7 @@ Swap:
     sta ($30),y             ; store that into LSBY1 position
     ldx #03 
 SLoop:
-    iny 
+    iny     
     pla 
     sta ($30, y)
     dex 
