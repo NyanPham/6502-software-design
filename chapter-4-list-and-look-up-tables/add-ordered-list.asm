@@ -3,7 +3,7 @@
 ; is in locations $30 and $31. The length of the list is in the 
 ; first byte of the list.
 ; The Find8 Subroutine is called to perform the search.
-
+    
 Add2Ol:     
     jsr Find8               ; search list for entry 
     lda $32                 ; is entry in the list?
