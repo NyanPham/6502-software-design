@@ -1,4 +1,4 @@
-; This subroutine multiplies an 8-bit singed multiplicand in
+; This subroutine multiplies an 8-bit signed multiplicand in
 ; location $21 by an 8-bit signed multiplier in location $20.
 ; the 16-bit product is returned in locations $22 (low byte)
 ; and $23 (high byte). Location $24 is used to hold a multiplicand
